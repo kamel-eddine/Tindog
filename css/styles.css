@@ -1,0 +1,206 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "halcom", sans-serif;
+
+}
+
+p {
+  color: #8f8f8f;
+}
+/* heading */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.section-heading {
+  font-size: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+
+}
+/*containers*/
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* section */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+
+}
+
+/* navigation Bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+
+}
+
+/*Download buttons */
+
+.Download-botton {
+  margin: 5% 3% 5% 0;
+}
+
+/* title section */
+
+#title {
+
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+/* title image */
+
+.title-image {
+  width: 21%;
+  transform: rotate(23deg);
+  margin-left: 69px;
+  position: absolute;
+
+}
+
+/* bootstrap challenge 1 */
+
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.features-title {
+  font-weight: 900;
+}
+
+
+.features-box {
+  padding: 5%;
+}
+
+
+
+.icon {
+  color: #ef8172;
+  padding: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+
+/* testimonials section */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* pricing section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-family: "Montserrat-Black"
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* bootstrap challenge 2 */
+/* section cta */
+
+.cta-heading {
+  font-family: "Montserrat-Black";
+  font-size: 4rem;
+  line-height: 1.5;
+  font-weight: 900;
+
+}
+
+/* section footer */
+
+
+
+.social-icon {
+  padding: 20px 10px;
+}
+
+ @media (max-width: 1000px){
+
+
+   #title {
+     text-align: center;
+     margin: 20PX;
+
+   }
+
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 63%;
+    margin: 20px;
+  }
